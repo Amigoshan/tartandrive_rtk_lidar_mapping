@@ -433,7 +433,7 @@ if __name__ == '__main__':
         [0.0,        0.0,        0.0,        1.0]
     ])
 
-    traj_folder = '/home/wenshan/tmp/offroad_test/2026-07-10-15-26-09_00_warehouse_calib_1_so_postproc'
+    traj_folder = '/media/offroad/wenshanw/00_warehouse_calib_1/'
     acc_points = accumulate_pointclouds_using_rtk(traj_folder, 
                                      rtk_lidar_extrinsics= rtk_lidar_extrinsics, 
                                      lidar_camera_extrinsics=lidar_camera_extrinsics, 
